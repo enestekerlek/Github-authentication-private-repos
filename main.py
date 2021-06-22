@@ -6,9 +6,6 @@ from typing import Optional
 from fastapi import FastAPI, Header
 from pydantic import BaseModel
 
-class personalAccessToken(BaseModel):
-
-    PAT: str
 
 app=FastAPI()
 
